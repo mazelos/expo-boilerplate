@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "eslint '**/*.{js,ts,tsx}' --fix --cache",
-    "postinstall": "rm -f .husky/pre-commit && husky install && husky add .husky/pre-commit 'yarn lint'"
+    "setup-husky": "rm -f .husky/pre-commit && husky install && husky add .husky/pre-commit 'yarn lint'"
   },
   "dependencies": {
     "expo": "~46.0.16",
