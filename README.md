@@ -7,5 +7,5 @@ yarn install
 yarn start
 yarn ios/android
 yarn lint
-yarn postinstall (use this if husky didn't link properly after "yarn install")
+yarn setup-husky (link the pre-commit hooks to git)
 ```
